@@ -1,0 +1,43 @@
+
+.inicio-container {
+  display: flex; /* Usa el modelo de caja flexbox */
+  flex-direction: column; /* Organiza los elementos en columna */
+  justify-content: center; /* Centra verticalmente los elementos */
+  align-items: center; /* Centra horizontalmente los elementos */
+  height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+  background: linear-gradient(135deg, #01092c, #421174); /* Fondo con gradiente */
+  color: #fff; /* Texto en color blanco */
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+.contenido-inicio {
+  text-align: center; /* Alineación del contenido al centro */
+}
+
+.titulo-inicio {
+  font-size: 100px; /* Tamaño grande para el título */
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+.subtitulo-inicio {
+  font-size: 30px; /* Tamaño para el subtítulo */
+  margin-bottom: 40px; /* Margen inferior */
+}
+
+.imagen-container {
+  text-align: center; /* Alineación del contenedor de la imagen */
+  margin-top: 20px; /* Margen superior */
+}
+
+.perfil-imagen {
+  width: 200px; /* Ancho de la imagen */
+  height: 200px; /* Altura de la imagen */
+  border-radius: 50%; /* Borde redondeado */
+  border: 6px solid #fff; /* Borde blanco */
+  transition: transform 0.3s ease-in-out; /* Transición al hacer hover */
+}
+
+.perfil-imagen:hover {
+  transform: scale(1.1); /* Efecto de escala al hacer hover */
+}

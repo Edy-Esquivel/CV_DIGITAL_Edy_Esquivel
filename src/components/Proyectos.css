@@ -1,0 +1,43 @@
+/* Estilos para Proyectos.js */
+
+.proyectos-container {
+  background: linear-gradient(135deg, #01092c, #421174); /* Fondo con degradado */
+  color: #fff; /* Texto en color blanco */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra suave */
+  margin: 20px 0; /* Margen superior e inferior */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+.proyectos-titulo {
+  font-size: 24px; /* Tamaño del título */
+}
+
+.proyecto {
+  margin: 20px 0; /* Margen superior e inferior */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #fff; /* Borde con color blanco */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #272822; /* Color de fondo similar a la terminal */
+}
+
+.proyecto h3 {
+  color: #fff; /* Texto en color blanco */
+  font-size: 20px; /* Tamaño del título del proyecto */
+}
+
+.proyecto p {
+  color: #aaa; /* Texto en color gris claro */
+}
+
+.proyecto a {
+  text-decoration: none; /* Sin decoración de enlace */
+  color: #0074d9; /* Color azul comúnmente usado para enlaces web */
+  font-weight: bold; /* Texto en negrita */
+  transition: color 0.3s ease; /* Transición al cambiar el color */
+}
+
+.proyecto a:hover {
+  color: #0056b3; /* Cambio de color al pasar el mouse sobre el enlace */
+}

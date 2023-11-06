@@ -1,0 +1,54 @@
+/* Estilos para SobreMi.js */
+
+.sobre-mi-container {
+  background: linear-gradient(135deg, #01092c, #421174); /* Fondo con degradado oscuro */
+  color: #fff; /* Texto en color blanco */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Sombra suave */
+  margin: 20px 0; /* Margen superior e inferior */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+.imagen-container {
+  display: flex; /* Contenedor flexible */
+  justify-content: center; /* Centra horizontalmente */
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+.perfil-imagen {
+  max-width: 200px; /* Ancho máximo de la imagen */
+  border-radius: 50%; /* Borde redondeado */
+  border: 4px solid #fff; /* Borde con color blanco */
+  transition: transform 0.3s ease-in-out; /* Transición en el efecto de zoom */
+}
+
+.perfil-imagen:hover {
+  transform: scale(1.1); /* Efecto de escala al hacer hover */
+}
+
+.sobre-mi-titulo {
+  font-size: 24px; /* Tamaño del título */
+  margin-bottom: 10px; /* Margen inferior */
+  transition: color 0.3s; /* Transición en cambio de color */
+}
+
+.sobre-mi-texto {
+  font-size: 16px; /* Tamaño del texto */
+  transition: color 0.3s; /* Transición en cambio de color */
+}
+
+.seccion {
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+.seccion h3 {
+  font-size: 20px; /* Tamaño del título de la sección */
+  margin-bottom: 10px; /* Margen inferior */
+  color: #0074d9; /* Color azul para los títulos de sección */
+}
+
+.seccion p {
+  font-size: 16px; /* Tamaño del texto de la sección */
+  color: #fff; /* Texto en color blanco */
+}
